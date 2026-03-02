@@ -19,14 +19,14 @@ export default function Navbar() {
       <div className="flex h-16 items-center justify-between px-6">
         {/* Left - Logo */}
         <div className="flex items-center gap-2">
-          <div className="text-2xl font-bold tracking-tight">🚗 TollAdmin</div>
+          <div className="text-2xl font-bold tracking-tight">Lib App</div>
         </div>
 
         {/* Center - Search */}
         <div className="hidden md:flex w-full max-w-md items-center relative">
           <Search className="absolute left-3 h-4 w-4 text-muted-foreground" />
           <Input
-            placeholder="Search..."
+            placeholder="Search subjects or PDFs..."
             className="pl-9 rounded-2xl bg-muted/40 focus-visible:ring-1"
           />
         </div>
