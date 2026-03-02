@@ -9,7 +9,7 @@ interface HeaderSectionProps {
 }
 
 const HeaderSection: React.FC<HeaderSectionProps> = ({
-  title = "Welcome Clint",
+  title = "Welcome Clint ,",
   description = "Access and manage your core engineering curriculum and specialized study materials.",
   onAddClick,
 }) => {

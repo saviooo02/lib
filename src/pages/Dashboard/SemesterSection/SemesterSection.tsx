@@ -11,42 +11,42 @@ export const SemesterSection = () => {
                     xl:grid-cols-4"
     >
       <SemesterCard
-        semesterName={`Semester 1`}
+        semesterName={`Semester 3`}
         status="passed"
         subjectCount={6}
         fileCount={142}
         onClick={() => console.log("Semester clicked")}
       />
       <SemesterCard
-        semesterName={`Semester 1`}
+        semesterName={`Semester 4`}
         status="passed"
         subjectCount={6}
         fileCount={142}
         onClick={() => console.log("Semester clicked")}
       />{" "}
       <SemesterCard
-        semesterName={`Semester 1`}
+        semesterName={`Semester 5`}
         status="active"
         subjectCount={6}
         fileCount={142}
         onClick={() => console.log("Semester clicked")}
       />{" "}
       <SemesterCard
-        semesterName={`Semester 1`}
+        semesterName={`Semester 6`}
         status="active"
         subjectCount={6}
         fileCount={142}
         onClick={() => console.log("Semester clicked")}
       />{" "}
       <SemesterCard
-        semesterName={`Semester 1`}
+        semesterName={`Semester 7`}
         status="inactive"
         subjectCount={6}
         fileCount={142}
         onClick={() => console.log("Semester clicked")}
       />{" "}
       <SemesterCard
-        semesterName={`Semester 1`}
+        semesterName={`Semester 8`}
         status="inactive"
         subjectCount={6}
         fileCount={142}
