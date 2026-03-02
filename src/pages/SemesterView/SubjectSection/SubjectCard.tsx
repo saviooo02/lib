@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { FileText } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-interface SemesterCardProps {
+interface SubjectCardProps {
   title: string;
   materialCount: number;
   updatedText: string;
@@ -13,7 +13,7 @@ interface SemesterCardProps {
   className?: string;
 }
 
-const SemesterCard: React.FC<SemesterCardProps> = ({
+const SubjectCard: React.FC<SubjectCardProps> = ({
   title,
   materialCount,
   updatedText,
@@ -25,7 +25,7 @@ const SemesterCard: React.FC<SemesterCardProps> = ({
   return (
     <div
       className={cn(
-        "bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-200 w-full max-w-sm",
+        "bg-muted/40 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-200 w-full max-w-sm",
         className,
       )}
     >
@@ -69,4 +69,4 @@ const SemesterCard: React.FC<SemesterCardProps> = ({
   );
 };
 
-export default SemesterCard;
+export default SubjectCard;

@@ -1,3 +1,11 @@
+import SemesterHeaderSection from "./SemesterHeader/SemesterHeader";
+import { SubjectSection } from "./SubjectSection/SubjectSection";
+
 export const SemesterView = () => {
-  return <h1>Hello</h1>;
+  return (
+    <div className="px-8">
+      <SemesterHeaderSection />
+      <SubjectSection />
+    </div>
+  );
 };
