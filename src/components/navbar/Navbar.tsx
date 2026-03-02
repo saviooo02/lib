@@ -46,7 +46,7 @@ export default function Navbar() {
             <DropdownMenuTrigger asChild>
               <Avatar className="cursor-pointer h-9 w-9">
                 <AvatarImage src="/avatar.png" />
-                <AvatarFallback>SS</AvatarFallback>
+                <AvatarFallback>CT</AvatarFallback>
               </Avatar>
             </DropdownMenuTrigger>
 
