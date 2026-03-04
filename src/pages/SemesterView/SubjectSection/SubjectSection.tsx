@@ -40,7 +40,7 @@ export const SubjectSection = () => {
           onClick={() => console.log("Add subject clicked")}
         >
           <div className="p-3 rounded-full bg-background border border-primary transition">
-            <Plus className="h-5 w-5  text-primary transition" />
+            <Plus className="h-5 w-5  text-primary" />
           </div>
 
           <div className="text-sm font-medium text-foreground group-hover:text-foreground transition">
